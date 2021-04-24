@@ -1,24 +1,57 @@
 {
   "sidebar": [
     {
-      "section": "Introduction",
+      "section": "Core Concepts",
       "topics": [
         {
-          "title": "Getting started",
-          "slug": "getting-started"
+          "title": "Core Concepts",
+          "slug": "core-concepts"
         }
       ]
     },
     {
-      "section": "Setup",
+      "section": "Core Services",
       "topics": [
         {
-          "title": "Theme configuration",
-          "slug": "theme-configuration"
-        },
+          "title": "Core Services",
+          "slug": "core-services"
+        }
+        
+      ]
+    },
+    {
+      "section": "Solutions and Tools",
+      "topics": [
         {
-          "title": "Forestry CMS",
-          "slug": "forestry-cms"
+          "title": "Solutions and Tools",
+          "slug": "solutions-tools"
+        }
+      ]
+    },
+    {
+      "section": "General and Network Security",
+      "topics": [
+        {
+          "title": "General and Network Security",
+          "slug": "gennet-sec"
+        }
+      ]
+    },
+    {
+      "section": "IGPC",
+      "topics": [
+        {
+          "title": "IGPC",
+          "slug": "igpc-igpc"
+        }
+      ]
+    },
+    {
+      "section": "Cost and SLA",
+      "topics": [
+        {
+          "title": "Cost and SLA",
+          "slug": "cost-sla"
         }
       ]
     }
