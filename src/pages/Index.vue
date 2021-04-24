@@ -4,9 +4,12 @@
       <h1>{{ $static.metadata.siteName }} - {{ this.description }}</h1>
       <nav>
         <!-- To use other icons here, you need to import them in the Shortcut component -->
-        <Shortcut link="/getting-started" text="Introduction" icon="play-icon" />
-        <Shortcut link="/theme-configuration" text="Configuration" icon="sliders-icon" />
-        <Shortcut link="/theme-configuration#changing-colors" text="Change colors" icon="eye-icon" />
+        <Shortcut link="/getting-started" text="Core Concepts" icon="play-icon" />
+        <Shortcut link="/theme-configuration" text="Core Services" icon="sliders-icon" />
+        <Shortcut link="/theme-configuration#changing-colors" text="Solutions and Tools" icon="eye-icon" />
+        <Shortcut link="/theme-configuration#changing-colors" text="General and Network Security" icon="eye-icon" />
+        <Shortcut link="/theme-configuration#changing-colors" text="IGPC" icon="eye-icon" />
+        <Shortcut link="/theme-configuration#changing-colors" text="Cost and SLA" icon="eye-icon" />
       </nav>
       <GitLink class="git" size="large" />
     </div>
@@ -32,14 +35,14 @@ export default {
   },
   data() {
     return {
-      description: 'The ultimate static generated documentation theme for the JAM-stack'
+      description: 'My notes for AZ-900'
     }
   },
   metaInfo() {
     return {
       title: this.description,
       meta: [
-        { key: 'description', name: 'description', content: 'A theme for static site documentation based on Gridsome, ready to deploy to Netlify in one click.' }
+        { key: 'description', name: 'description', content: 'My notes for AZ-900' }
       ]
     }
   }
